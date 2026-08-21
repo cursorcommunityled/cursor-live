@@ -16,6 +16,7 @@ import { writeRoomHostKey } from "@/components/host-key-input";
 import { buildCursorRoomCode } from "@/lib/questions-md";
 import { usePreferences } from "@/lib/preferences";
 import { verifyPresentAccess } from "@/lib/use-room";
+import { MIN_HOST_KEY_LENGTH } from "@/lib/host-auth";
 
 export function LandingPage() {
   const { t } = usePreferences();
@@ -35,8 +36,8 @@ export function LandingPage() {
       setPresentError("Escribe el número de la sala (ej. 1 → CURSOR1).");
       return;
     }
-    if (presentKey.trim().length < 4) {
-      setPresentError("La clave debe tener al menos 4 caracteres.");
+    if (presentKey.trim().length < MIN_HOST_KEY_LENGTH) {
+      setPresentError(`La clave debe tener al menos ${MIN_HOST_KEY_LENGTH} caracteres.`);
       return;
     }
 

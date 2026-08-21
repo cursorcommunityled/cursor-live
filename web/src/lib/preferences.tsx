@@ -118,7 +118,7 @@ const dictionary = {
     "host.loading": "Cargando estudio…",
     "host.msgNeedNumber": "Escribe un número para formar el código CURSOR…",
     "host.msgNeedKey":
-      "Escribe la clave (mín. 4 caracteres) para configurar la sala.",
+      "Escribe la clave (mín. 8 caracteres) para configurar la sala.",
     "host.msgSaved": "Guardado. Usa la misma clave para presentar y gestionar.",
     "host.msgSaveFail": "No se pudo guardar.",
     "host.msgCreateFail": "No se pudo crear.",
@@ -288,7 +288,7 @@ const dictionary = {
     "host.loading": "Loading studio…",
     "host.msgNeedNumber": "Enter a number to build the CURSOR… code.",
     "host.msgNeedKey":
-      "Enter the key (min. 4 characters) to configure the room.",
+      "Enter the key (min. 8 characters) to configure the room.",
     "host.msgSaved": "Saved. Use the same key to present and manage.",
     "host.msgSaveFail": "Could not save.",
     "host.msgCreateFail": "Could not create.",
