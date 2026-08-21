@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { MIN_HOST_KEY_LENGTH } from "@/lib/host-auth";
 import { Eye, EyeOff, KeyRound } from "lucide-react";
 
 export function HostKeyInput({
   value,
   onChange,
-  placeholder = "Mín. 4 caracteres",
+  placeholder = `Mín. ${MIN_HOST_KEY_LENGTH} caracteres`,
   className = "inline-field",
   id,
 }: {

@@ -74,8 +74,8 @@ export function DocsPage() {
             </li>
             <li>
               {es
-                ? "Define tu clave (mín. 4 caracteres). Solo quien la tenga puede configurar o presentar esa sala."
-                : "Set your key (min. 4 characters). Only someone with it can configure or present that room."}
+                ? "Define tu clave (mín. 8 caracteres). Solo quien la tenga puede configurar o presentar esa sala."
+                : "Set your key (min. 8 characters). Only someone with it can configure or present that room."}
             </li>
             <li>
               {es
